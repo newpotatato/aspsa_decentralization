@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# API keys — never commit the real config
+src/llm_config.py
+
+# Paper LaTeX sources (not published yet)
+paper/
+
+# Large datasets
+data/
+
+# Simulation output directories
+ablation_run_outputs/
+ablation_error_run/
+spsa_comparison/
+real_llm_outputs/
+_smoke*/
+single_run_outputs/
+comparison_outputs/
+benchmark_suite_results/
+
+# Jupyter
+*.ipynb
+
+# Misc
+*.pdf
+*.zip
+*.log
+*.png
+
+# CatBoost training artifacts
+catboost_info/
+
+# Personal assistant memory
+.claude/
+
+# GitHub Copilot internal config (not for publication)
+.github/
+
+# Internal working / reviewer notes (not for publication)
+FIXES_FOR_REVIEWER_CONCERNS.md
+README_FIXES.md
+REPAIR_SUMMARY.md
+METRICS_AND_BASELINES.md
+SIMULATION_RUN_GUIDE.md
+
+# Paper figure kept in paper/figs/ — override the global *.png exclusion
+!paper/figs/*.png
