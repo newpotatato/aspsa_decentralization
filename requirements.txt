@@ -1,6 +1,7 @@
-numpy
-pandas
-matplotlib
-jupyter
-catboost
-requests
+numpy>=2.0
+pandas>=2.0
+matplotlib>=3.8
+scipy>=1.13
+plotly>=5.0
+catboost>=1.2
+requests>=2.31
